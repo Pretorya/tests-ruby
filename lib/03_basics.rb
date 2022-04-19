@@ -6,11 +6,11 @@ def who_is_bigger (number1, number2, number3)
   maxarray = array.max
   
   case maxarray
-  when == number1
+  when number1
     "a is bigger"
-  when == number2
+  when number2
     "b is bigger"
-  when == number3
+  when number3
     "c is bigger"
   end
 end

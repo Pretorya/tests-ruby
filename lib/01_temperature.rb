@@ -1,9 +1,8 @@
 def ftoc (temperature)
-  celcius = (temperature − 32) × 5/9
-  return celsius
+  return (temperature - 32) * 5/9
 end
 
 def ctof (degrees)
-    fahrenheit = (degrees × 9/5) + 32
+    fahrenheit = (degrees * 9/5) + 32
     return fahrenheit
 end
